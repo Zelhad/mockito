@@ -70,6 +70,16 @@ public class ArrayListMock1 {
 		verify(mockedList.get(0));
 		
 	}
+	@org.junit.jupiter.api.Test
+	@Order(6)
+	void testWithArgumentmatchers() {
+		@SuppressWarnings("unchecked")
+		LinkedList<String> mockedList = mock(LinkedList.class);
+		when(mockedList.get(anyInt())).thenReturn("Element");
+		System.out.println(mockedList.get(900));
+		
+		
+	}
 
 
 	

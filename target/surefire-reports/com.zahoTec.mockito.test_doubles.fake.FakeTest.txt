@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.zahoTec.mockito.test_doubles.fake.FakeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.267 s -- in com.zahoTec.mockito.test_doubles.fake.FakeTest
